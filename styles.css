@@ -181,3 +181,8 @@
             border-radius: 20px;
             color: white;
         }
+        
+        h5 {
+            background-color: rgba(172, 189, 173, 0.7);
+            border-radius: 20px;
+        }
