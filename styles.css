@@ -167,3 +167,17 @@
             border-radius: 20px;
             color: white;
         }
+        
+        #education {
+            margin: 5px 70px 5px 70px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 20px;
+            color: white;
+        }
+        
+        #project {
+            margin: 5px 70px 5px 70px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 20px;
+            color: white;
+        }
