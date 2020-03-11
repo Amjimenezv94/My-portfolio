@@ -1,193 +1,195 @@
-        body {
-            background: url(https://i.pinimg.com/originals/bb/19/9e/bb199e18e0a94e9552711fa6d23c7a20.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
+    body {
+        background: url(https://i.pinimg.com/originals/bb/19/9e/bb199e18e0a94e9552711fa6d23c7a20.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    /* Clases para menu */
+    
+    .nav {
+        border-bottom: 1px solid#eaeaeb;
+        text-align: right;
+        height: 70px;
+        line-height: 70px;
+        background: black;
+    }
+    
+    .nav-link {
+        margin: 0 30px 0 0;
+    }
+    
+    .nav-link a {
+        text-decoration: none;
+        color: white;
+        margin: 0 10px;
+        line-height: 70px;
+    }
+    
+    .nav-link a:hover {
+        font-weight: bold;
+    }
+    
+    span {
+        color: white;
+        font-weight: bold;
+    }
+    
+    label {
+        margin: 0 40px 0 0;
+        font-size: 26px;
+        line-height: 70px;
+        display: none;
+    }
+    
+    #toggle {
+        display: none;
+    }
+    
+    @media only screen and (max-width:500px) {
+        label {
+            display: block;
+            cursor: pointer;
         }
-        /* Clases para menu */
-        
         .nav {
-            border-bottom: 1px solid#eaeaeb;
-            text-align: right;
-            height: 70px;
-            line-height: 70px;
+            background: rgb(24, 23, 23);
+        }
+        .nav-link {
+            text-align: center;
+            width: 100%;
+            display: none;
             background: black;
         }
-        
-        .nav-link {
-            margin: 0 30px 0 0;
+        .nav-link a {
+            display: block;
+            border-bottom: 1px solid#eaeaeb;
+            margin: 0;
         }
-        
+        #toggle:checked+.nav-link {
+            display: block;
+        }
         .nav-link a {
             text-decoration: none;
             color: white;
             margin: 0 10px;
             line-height: 70px;
         }
-        
-        .nav-link a:hover {
-            font-weight: bold;
-        }
-        
-        span {
+        #encabezado h1 {
+            align-self: center;
             color: white;
-            font-weight: bold;
+            font-size: auto;
+            text-align: center;
+            justify-content: center;
+            font-family: 'Luckiest Guy', cursive;
         }
-        
-        label {
-            margin: 0 40px 0 0;
-            font-size: 26px;
-            line-height: 70px;
-            display: none;
-        }
-        
-        #toggle {
-            display: none;
-        }
-        
-        @media only screen and (max-width:500px) {
-            label {
-                display: block;
-                cursor: pointer;
-            }
-            .nav {
-                background: rgb(24, 23, 23);
-            }
-            .nav-link {
-                text-align: center;
-                width: 100%;
-                display: none;
-                background: black;
-            }
-            .nav-link a {
-                display: block;
-                border-bottom: 1px solid#eaeaeb;
-                margin: 0;
-            }
-            #toggle:checked+.nav-link {
-                display: block;
-            }
-            .nav-link a {
-                text-decoration: none;
-                color: white;
-                margin: 0 10px;
-                line-height: 70px;
-            }
-            #encabezado h1 {
-                align-self: center;
-                color: white;
-                font-size: auto;
-                text-align: center;
-                justify-content: center;
-                font-family: 'Luckiest Guy', cursive;
-            }
-        }
-        /*Estilos Info personal */
-        
-        .info {
-            margin: 0px 30px 0px 30px;
-            background-color: black;
-            padding-bottom: 30px;
-            padding-top: 15px;
-            font-family: 'Times New Roman', Times, serif;
-        }
-        /* Estilos encabezado*/
-        
+    }
+    /*Estilos Info personal */
+    
+    .info {
+        margin: 0px 0px 0px 30px;
+        background-color: rgba(0, 0, 0, 0.96);
+        padding-bottom: 30px;
+        padding-top: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        border-radius: 10px 0;
+    }
+    /* Estilos encabezado*/
+    
+    #encabezado {
+        background: url(https://i.pinimg.com/originals/4a/0e/3d/4a0e3d2dff3284feaa58735a01ac362c.gif);
+        background-position: center;
+        background-size: cover;
+        height: 400px;
+        width: auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
+    #encabezado h1 {
+        margin-top: 30px;
+        align-self: center;
+        color: black;
+        font-size: 40px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        padding: 150px;
+        margin-top: 0px;
+    }
+    
+    @media only screen and (max-width: 600px) {
         #encabezado {
-            background: url(https://i.pinimg.com/originals/4a/0e/3d/4a0e3d2dff3284feaa58735a01ac362c.gif);
+            /*https://i.pinimg.com/originals/4a/0e/3d/4a0e3d2dff3284feaa58735a01ac362c.gif*/
+            background: url(https://i.pinimg.com/originals/5a/97/10/5a9710a2a8c01f59d77f706bc02b7d47.gif);
             background-position: center;
-            background-size: cover;
-            height: 400px;
+            height: auto;
             width: auto;
-            background-size: cover;
+            margin: 5px;
             background-repeat: no-repeat;
             background-attachment: fixed;
         }
-        
         #encabezado h1 {
-            margin-top: 30px;
+            margin-top: 10px;
             align-self: center;
-            color: black;
-            font-size: 40px;
+            color: white;
+            font-size: 20px;
             text-align: center;
             font-family: 'Times New Roman', Times, serif;
             font-weight: bold;
-            padding: 150px;
+            padding: 50px;
             margin-top: 0px;
         }
-        
-        @media only screen and (max-width: 600px) {
-            #encabezado {
-                /*https://i.pinimg.com/originals/4a/0e/3d/4a0e3d2dff3284feaa58735a01ac362c.gif*/
-                background: url(https://i.pinimg.com/originals/5a/97/10/5a9710a2a8c01f59d77f706bc02b7d47.gif);
-                background-position: center;
-                height: auto;
-                width: auto;
-                margin: 5px;
-                background-repeat: no-repeat;
-                background-attachment: fixed;
-            }
-            #encabezado h1 {
-                margin-top: 10px;
-                align-self: center;
-                color: white;
-                font-size: 20px;
-                text-align: center;
-                font-family: 'Times New Roman', Times, serif;
-                font-weight: bold;
-                padding: 50px;
-                margin-top: 0px;
-            }
-        }
-        
-        #encabezado img {
-            margin-top: -340px;
-            margin-left: 1150px;
-            justify-content: center;
-            position: relative;
-        }
-        /* Estilos iconos*/
-        
-        .icon-container i {
-            color: white;
-            margin-top: 20px;
-        }
-        
-        .info {
-            margin: 5px 70px 5px 70px;
-            background-color: rgba(0, 0, 0, 0.7);
-            border-radius: 20px;
-        }
-        
-        .info h6 {
-            color: white;
-            font-size: 20px;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        }
-        /* Estilos del main */
-        
-        #welcome-section {
-            margin: 5px 70px 5px 70px;
-            background-color: rgba(0, 0, 0, 0.7);
-            border-radius: 20px;
-            color: white;
-        }
-        
-        #education {
-            margin: 5px 70px 5px 70px;
-            background-color: rgba(0, 0, 0, 0.7);
-            border-radius: 20px;
-            color: white;
-        }
-        
-        #project {
-            margin: 5px 70px 5px 70px;
-            background-color: rgba(0, 0, 0, 0.7);
-            border-radius: 20px;
-            color: white;
-        }
-        
-        h5 {
-            background-color: rgba(172, 189, 173, 0.7);
-            border-radius: 20px;
-        }
+    }
+    
+    #encabezado img {
+        margin-top: -340px;
+        margin-left: 1150px;
+        justify-content: center;
+        position: relative;
+    }
+    /* Estilos iconos*/
+    
+    .icon-container i {
+        color: white;
+        margin-top: 20px;
+    }
+    
+    .profile-link h6 {
+        color: white;
+        font-size: 30px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    /* Estilos del main */
+    
+    #welcome-section {
+        margin: 5px 70px 5px 70px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 20px;
+        color: white;
+    }
+    
+    #welcome-section b {
+        font-size: 24px;
+    }
+    
+    #education {
+        margin: 5px 70px 5px 70px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 20px;
+        color: white;
+    }
+    
+    #project {
+        margin: 5px 70px 5px 70px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 20px;
+        color: white;
+    }
+    
+    h5 a {
+        background-color: rgba(172, 189, 173, 0.7);
+        border-radius: 20px;
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+    }
