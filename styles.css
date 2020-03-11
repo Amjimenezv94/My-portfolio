@@ -25,6 +25,10 @@
             line-height: 70px;
         }
         
+        .nav-link a:hover {
+            font-weight: bold;
+        }
+        
         span {
             color: white;
             font-weight: bold;
